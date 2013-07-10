@@ -1,0 +1,130 @@
+﻿body {
+   background: #333;
+   font: 16px/1.5em 'Myraid Pro', Arial, sans-serif;
+   color: #fff;
+}
+
+.icon {
+   display: inline-block;
+   position: relative;
+   margin-right: 20px;
+   padding-left: 20px;
+   line-height: 1;
+}
+
+.icon:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 16px;
+   height: 16px;
+   background-repeat: no-repeat;
+   background-image: url(../img/icon-sprite.png);
+}
+
+.icon--meter:before {
+   background-position: 0 0;
+}
+
+.icon--globe:before {
+   background-position: -16px 0;
+}
+
+.icon--compass:before {
+   background-position: -32px 0;
+}
+
+.icon--brightness:before {
+   background-position: -48px 0;
+}
+
+.icon--thermometer:before {
+   background-position: -64px 0;
+}
+
+.icon--location:before {
+   background-position: -80px 0;
+}
+
+.icon--power:before {
+   background-position: -96px 0;
+}
+
+.icon--block:before {
+   background-position: -112px 0;
+}
+
+.icon--search:before {
+   background-position: -128px 0;
+}
+
+.icon--location-2:before {
+   background-position: -144px 0;
+}
+
+.icon--empty-battery:before {
+   background-position: -160px 0;
+}
+
+.icon--half-battery:before {
+   background-position: -176px 0;
+}
+
+.icon--full-battery:before {
+   background-position: -192px 0;
+}
+
+.icon--charging-battery:before {
+   background-position: -208px 0;
+}
+
+.icon--trash-can:before {
+   background-position: -224px 0;
+}
+
+
+full-battery
+
+half-battery
+
+empty-battery
+
+location
+
+search
+
+block
+power
+location-2
+
+thermometer
+
+brightness
+compass
+globe
+meter
+trash-can
+glasses
+car
+sport-car
+modern-bus
+classic-bus
+train
+locamotive
+ship
+plane
+scooter
+bike
+rocket
+alarm
+gym
+med-brief
+medicine
+locked
+unlocked
+unlocked-2
+cloud
+download
+upload
+
